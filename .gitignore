@@ -1,0 +1,5 @@
+*.log
+*.tmp
+vendor/
+/wp-includes/
+/wp-admin/

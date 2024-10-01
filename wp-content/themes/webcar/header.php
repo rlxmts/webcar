@@ -12,18 +12,27 @@
   
   <link rel='stylesheet' href="<?= get_template_directory_uri() . '/css/reset.css'?>" />
   <link rel='stylesheet' href="<?= get_template_directory_uri() . '/css/header.css'?>" />
+  <link rel='stylesheet' href="<?= get_template_directory_uri() . '/css/footer.css'?>" />
+  <link rel='stylesheet' href="<?= get_template_directory_uri() . '/css/' . $estiloPagina ?>" />
 
 </head>
 <body <?php body_class(); ?>>
   <header>
-    <?php
-    the_custom_logo();
-    wp_nav_menu(
-      array(
-        'menu' => 'menu-navegacao'
-      )
-    );
-    ?>
+    <div class="menu-container">
+      <?php
+      the_custom_logo();
+      ?>
+      <nav>
+        <?php
+          wp_nav_menu(
+            array(
+              'menu' => 'menu-navegacao',
+              'menu_id' => 'menu-principal'
+              )
+            );
+            ?>
+      </nav>
+    </div>
   </header>
 
 

@@ -1,0 +1,23 @@
+.titulo-pagina{
+  font-size: 2rem;
+  color: #FFFFFF;
+  font-weight: 300;
+  margin: 3rem 0 1rem 0;
+}
+
+.conteudo-pagina p{
+  color: #FFFFFF;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.imagem-pagina{
+  width: 100%;
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.imagem-pagina img{
+  width: 100%;
+  transform: translateY(-30%);
+}

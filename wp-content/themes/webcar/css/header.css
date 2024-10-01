@@ -1,0 +1,34 @@
+header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+header a{
+  max-width: 170px;
+}
+
+header a img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.menu{
+  display: flex;
+  gap: 15px;
+}
+
+.menu li a {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menu li a:hover {
+  transition: .3s;
+  color: #F98E4C;
+}
